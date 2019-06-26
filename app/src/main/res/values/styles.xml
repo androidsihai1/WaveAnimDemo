@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="WaveView">
+        <!--圆颜色-->
+        <attr name="wave_color" format="color"/>
+        <!--中心圆图片半径-->
+        <attr name="wave_coreImageRadius" format="dimension"/>
+        <attr name="wave_maxRadius" format="dimension"></attr>
+        <!--波浪圆之间间距,值越小越窄-->
+        <attr name="wave_width" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="TabLayoutView">
+        <attr name="tlv_text_color" format="color"/>
+        <attr name="tlv_text_size" format="dimension"/>
+        <attr name="tlv_indicator_width" format="dimension"/>
+        <attr name="tlv_selectedTextBold" format="boolean"/>
+    </declare-styleable>
+
+</resources>
